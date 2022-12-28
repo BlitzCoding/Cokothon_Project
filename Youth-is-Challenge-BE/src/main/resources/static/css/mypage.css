@@ -1,0 +1,158 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 156rem;
+}.mypage-VDV {
+  box-sizing: border-box;
+  padding: 4.2rem 4.3rem 13.9rem 4.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.mypage-VDV .menu-1hd {
+  margin-bottom: 4.1rem;
+  width: 100%;
+  height: 7.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .hhru-logo-9oq {
+  margin: 0rem 3.618rem 0.5rem 0rem;
+  width: 6.9rem;
+  height: 6.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .new-york-g35 {
+  margin: 2.467rem 4.713rem 2.159rem 0rem;
+  height: calc(100% - 4.6261rem);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border-bottom: solid 0.2rem #333333;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .informations-kYj {
+  margin: 0rem 4.102rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .community-sdM {
+  margin: 0rem 62.103rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .resume-button-omu {
+  margin: 1.501rem 1.56rem 1.501rem 0rem;
+  width: 19.2005rem;
+  height: calc(100% - 3.0029rem);
+  position: relative;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.mypage-VDV .menu-1hd .resume-button-omu .mypage-jfZ {
+  width: 6.3rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 5.9649rem;
+  top: 1.0986rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.mypage-VDV .menu-1hd .resume-button-omu .rectangle-4-eGj {
+  width: 19.2005rem;
+  height: 4.3971rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #333333;
+  box-sizing: border-box;
+  border-radius: 3rem;
+}
+.mypage-VDV .menu-1hd .sing-in-button-mMM {
+  margin: 1.501rem 0rem 1.501rem 0rem;
+  width: 12.4048rem;
+  height: calc(100% - 3.0029rem);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6001c;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.mypage-VDV .item--deT {
+  margin: 0rem 0rem 5.8rem 5rem;
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 1.1725;
+  color: #d6001c;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mypage-VDV .auto-group-fueb-M4f {
+  margin-left: 7.3rem;
+  width: calc(100% - 7.3rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.mypage-VDV .auto-group-fueb-M4f .item-2022-12-30--Vgf {
+  margin: 17.2rem 62.6rem 0rem 0rem;
+  font-size: 1.6156rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.mypage-VDV .auto-group-fueb-M4f .image-6-BpP {
+  width: 64.1rem;
+  height: 38.7rem;
+  position: relative;
+  background-size: 141.831% 169.444%;
+  background-position: -14.946rem -16.9611rem;
+  background-image: url('../assets/image-6.png');
+  flex-shrink: 0;
+}
