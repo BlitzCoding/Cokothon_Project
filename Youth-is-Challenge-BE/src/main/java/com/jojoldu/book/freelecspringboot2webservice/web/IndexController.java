@@ -25,6 +25,11 @@ public class IndexController {
         return "index";
     }
 
+    @GetMapping("/loginPage")
+    public String loginPage() {
+        return "loginPage";
+    }
+
     @GetMapping("/posts/")
     public String postList(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());

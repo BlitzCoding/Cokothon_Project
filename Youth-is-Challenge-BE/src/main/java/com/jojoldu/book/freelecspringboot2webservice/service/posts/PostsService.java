@@ -29,25 +29,6 @@ public class PostsService {
     @Transactional
     public Long save(PostsSaveRequestDto requestDto, MultipartFile file ,SessionUser user) throws IOException {
         User author = userRepository.getById(user.getUserId());
-        //이미지 저장할 파일 경로 생성
-        /*String storePath = System.getProperty("user.dir")+"\\src\\main\\resources\\static\\images";
-        File storeFolder = new File(storePath);
-        //헤당 폴더 없는 경우에만 생성
-        if (!storeFolder.exists()) {
-            try {
-                storeFolder.mkdirs();
-            } catch (Exception e) {
-                e.getStackTrace();
-            }
-        }
-        //고유 식별자 생성
-        UUID uuid = UUID.randomUUID();
-        //파일명 생성
-        String fileName = null;
-        if (file != null) { //파일을 첨부된 경우만 이름 꺼냄
-            fileName = uuid + "_"+ file.getOriginalFilename();
-            file.transferTo(new File(storePath, fileName));
-        }*/
         String saveName = saveFile(file);
 
         return postRepository.save(Posts.builder()

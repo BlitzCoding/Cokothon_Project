@@ -1,7 +1,6 @@
 var main = { //main이란 객체 생성해서 function 유효 범위 선언
         init : function () {
             var _this = this;
-            /*var flag = false;*/
             $('#btn-save').on('click', function () {
                 _this.save();
             });
