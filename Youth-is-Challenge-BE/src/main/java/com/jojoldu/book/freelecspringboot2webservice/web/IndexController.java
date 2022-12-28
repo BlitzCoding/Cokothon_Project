@@ -59,7 +59,7 @@ public class IndexController {
     }
 
     @GetMapping("/myPage")
-    public String mypage() {
+    public String myPage() {
         return "myPage";
     }
 

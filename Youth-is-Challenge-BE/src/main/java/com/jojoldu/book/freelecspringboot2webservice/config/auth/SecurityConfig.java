@@ -16,7 +16,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .mvcMatchers("/", "/css/**", "/scripts/**","/plugin/**", "/h2-console/**", "/fonts/", "/loginPage", "/loginPage/").permitAll()
+                .antMatchers("/", "/css/**", "/scripts/**","/plugin/**", "/h2-console/**", "/fonts/", "/loginPage", "/loginPage/").permitAll()
                 .and()
                     .logout()
                 .and()
