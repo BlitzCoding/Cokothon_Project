@@ -1,0 +1,766 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 156rem;
+}.information-Zwh {
+  box-sizing: border-box;
+  padding: 4.2rem 4.3rem 9.9rem 4.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 3rem;
+}
+.information-Zwh .menu-tDH {
+  margin-bottom: 8.1rem;
+  width: 100%;
+  height: 7.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .hhru-logo-1oh {
+  margin: 0rem 3.618rem 0.5rem 0rem;
+  width: 6.9rem;
+  height: 6.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .new-york-hwR {
+  margin: 2.467rem 4.713rem 2.159rem 0rem;
+  height: calc(100% - 4.6261rem);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  border-bottom: solid 0.2rem #333333;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .informations-YBM {
+  margin: 0rem 4.102rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .community-2cK {
+  margin: 0rem 62.103rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .resume-button-Yaf {
+  margin: 1.501rem 1.56rem 1.501rem 0rem;
+  width: 19.2005rem;
+  height: calc(100% - 3.0029rem);
+  position: relative;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.information-Zwh .menu-tDH .resume-button-Yaf .homepage-UDR {
+  width: 8.7rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 5.1649rem;
+  top: 1.0986rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .menu-tDH .resume-button-Yaf .rectangle-4-ZVm {
+  width: 19.2005rem;
+  height: 4.3971rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #333333;
+  box-sizing: border-box;
+  border-radius: 3rem;
+}
+.information-Zwh .menu-tDH .sing-in-button-Usd {
+  margin: 1.501rem 0rem 1.501rem 0rem;
+  width: 12.4048rem;
+  height: calc(100% - 3.0029rem);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6001c;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ {
+  margin: 0rem 14.8rem 7.7rem 14.9rem;
+  width: calc(100% - 29.7rem);
+  height: 44.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D {
+  margin-right: 10.5rem;
+  width: 32rem;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D .learn-more--BfZ {
+  width: 9.6rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 3rem;
+  top: 39.3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D .name-tK5 {
+  width: 24.2rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 3rem;
+  top: 2.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D .period-zN7 {
+  width: 19.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 17.9rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D .apply-i3D {
+  width: 17.9rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 20.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-vejr-joZ .group-18-F1D .benefit-2Jo {
+  width: 23.9rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 3rem;
+  top: 28.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh {
+  margin-right: 11.2rem;
+  box-sizing: border-box;
+  padding: 2.9rem 4.3rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh .name-ajd {
+  margin-bottom: 7.2rem;
+  max-width: 24.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh .period-6T5 {
+  margin: 0rem 5rem 0.3rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh .apply-1K9 {
+  max-width: 24.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh .benefit-jF9 {
+  margin: 0rem 0.3rem 5.5rem 0rem;
+  max-width: 24.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .auto-group-z1tv-URh .learn-more--Exb {
+  margin-right: 15.1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT {
+  box-sizing: border-box;
+  padding: 2.9rem 4.1rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT .name-rj5 {
+  margin: 0rem 0.6rem 4.6rem 0rem;
+  max-width: 24.3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT .period-9CP {
+  margin: 0rem 5.3rem 0.3rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT .apply-fAj {
+  margin-bottom: 2.6rem;
+  max-width: 24.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT .benefit-aHh {
+  margin: 0rem 0.4rem 8.1rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-vejr-joZ .group-19-utP .group-18-jeT .learn-more--619 {
+  margin-right: 15.3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s {
+  margin: 0rem 14.8rem 8.7rem 14.9rem;
+  width: calc(100% - 29.7rem);
+  height: 44.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s {
+  margin-right: 10.5rem;
+  box-sizing: border-box;
+  padding: 2.9rem 4.4rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s .name-p5Z {
+  margin-bottom: 9.8rem;
+  max-width: 24.6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s .period-9Nj {
+  margin-bottom: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s .apply-h9M {
+  margin-bottom: 2.6rem;
+  max-width: 24.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s .benefit-DtP {
+  margin-bottom: 8.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-18-W4s .learn-more--m9D {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX {
+  margin-right: 11.2rem;
+  box-sizing: border-box;
+  padding: 2.9rem 4.3rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX .name-8P5 {
+  margin-bottom: 4.6rem;
+  max-width: 24.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX .period-TAT {
+  margin: 0rem 5rem 0.3rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX .apply-nTd {
+  margin: 0rem 0.2rem 2.6rem 0rem;
+  max-width: 24.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX .benefit-hab {
+  margin: 0rem 1.1rem 8.1rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .auto-group-6bke-cvX .learn-more--pfD {
+  margin-right: 15.1rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V {
+  box-sizing: border-box;
+  padding: 2.9rem 4rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V .name-ePM {
+  margin-bottom: 7.2rem;
+  max-width: 25rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V .period-AsV {
+  margin: 0rem 5.3rem 0.3rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V .apply-WAf {
+  margin: 0rem 0.6rem 2.6rem 0rem;
+  max-width: 24.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V .benefit-pSF {
+  margin: 0rem 0.2rem 5.5rem 0rem;
+  max-width: 24.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-sz4x-n8s .group-19-4PD .group-18-j1V .learn-more--jZD {
+  margin-right: 15.4rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw {
+  margin: 0rem 14.8rem 0rem 14.9rem;
+  width: calc(100% - 29.7rem);
+  height: 44.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T {
+  margin-right: 10.5rem;
+  width: 32rem;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T .learn-more--frB {
+  width: 9.6rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 3rem;
+  top: 39.3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T .name-yby {
+  width: 24.9rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 3rem;
+  top: 2.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T .period-fzb {
+  width: 19.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 17.9rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T .apply-npK {
+  width: 24.3rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 20.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-18-Z2T .benefit-hAb {
+  width: 24.4rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 3rem;
+  top: 28.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD {
+  margin-right: 11.2rem;
+  width: 32rem;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD .learn-more--rSo {
+  width: 9.6rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 3rem;
+  top: 39.3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD .name-AyH {
+  width: 25rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 3rem;
+  top: 2.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD .period-Ho1 {
+  width: 19.7rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 17.9rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD .apply-1U7 {
+  width: 17.8rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 20.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .auto-group-32ju-7VD .benefit-iNX {
+  width: 22.5rem;
+  height: 2.6rem;
+  position: absolute;
+  left: 3rem;
+  top: 28.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy {
+  box-sizing: border-box;
+  padding: 2.9rem 4rem 2.9rem 3rem;
+  width: 32rem;
+  height: 100%;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy .name-Kt7 {
+  margin-bottom: 9.8rem;
+  max-width: 25rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy .period-TUX {
+  margin-bottom: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 1.625;
+  color: #eb4335;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy .apply-zjM {
+  margin-bottom: 2.6rem;
+  max-width: 24.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: -0.2rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy .benefit-8af {
+  margin-bottom: 8.1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: -0.1rem;
+  color: #000000;
+  font-family: Noto Sans KR, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.information-Zwh .auto-group-tbda-Rgw .group-19-Mkw .group-18-oPy .learn-more--Tcw {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1875;
+  color: #4ba87d;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+}

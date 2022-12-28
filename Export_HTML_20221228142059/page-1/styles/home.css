@@ -1,0 +1,178 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 156rem;
+}
+.home-KMd {
+  box-sizing: border-box;
+  padding: 4.2rem 4.3rem 4.2rem 4.3rem;
+  width: 100%;
+  height: 91.2rem;
+  background-color: #ffffff;
+}
+.home-KMd .menu-v6X {
+  width: 100%;
+  height: 7.4rem;
+  display: flex;
+  align-items: center;
+}
+.home-KMd .menu-v6X .hhru-logo-nY3 {
+  margin: 0rem 3.618rem 0.5rem 0rem;
+  width: 6.9rem;
+  height: 6.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-KMd .menu-v6X .new-york-HDu {
+  margin: 2.467rem 4.713rem 2.159rem 0rem;
+  height: calc(100% - 4.6261rem);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, "Source Sans Pro";
+  white-space: nowrap;
+  border-bottom: solid 0.2rem #333333;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.home-KMd .menu-v6X .informations-uWB {
+  margin: 0rem 4.101rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-KMd .menu-v6X .community-bP1 {
+  margin: 0rem 62.103rem 0.267rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-KMd .menu-v6X .resume-button-K47 {
+  margin: 1.501rem 1.56rem 1.501rem 0rem;
+  width: 19.2005rem;
+  height: calc(100% - 3.0029rem);
+  position: relative;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.home-KMd .menu-v6X .resume-button-K47 .homepage-dKh {
+  width: 8.7rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 5.1649rem;
+  top: 1.0986rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #333333;
+  font-family: Montserrat, "Source Sans Pro";
+  white-space: nowrap;
+}
+.home-KMd .menu-v6X .resume-button-K47 .rectangle-4-7Es {
+  width: 19.2005rem;
+  height: 4.3971rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #333333;
+  box-sizing: border-box;
+  border-radius: 3rem;
+}
+.home-KMd .menu-v6X .sing-in-button-D31 {
+  margin: 1.501rem 0rem 1.501rem 0rem;
+  width: 12.4048rem;
+  height: calc(100% - 3.0029rem);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, "Source Sans Pro";
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6001c;
+  border-radius: 3rem;
+  flex-shrink: 0;
+}
+.dropdown{
+  position : relative;
+  display : inline-block;
+}
+
+.dropbtn_icon{
+  font-family : 'Material Icons';
+}
+.dropbtn{
+  border : 1px solid rgb(37, 37, 37);
+  border-radius : 4px;
+  background-color: #f5f5f5;
+  font-weight: 400;
+  color : rgb(37, 37, 37);
+  padding : 12px;
+  width :200px;
+  text-align: left;
+  cursor : pointer;
+  font-size : 12px;
+}
+.dropdown-content{
+  display : none;
+  position : absolute;
+  z-index : 1; /*다른 요소들보다 앞에 배치*/
+  font-weight: 400;
+  background-color: #f9f9f9;
+  min-width : 200px;
+}
+
+.dropdown-content a{
+  display : block;
+  text-decoration : none;
+  color : rgb(37, 37, 37);
+  font-size: 12px;
+  padding : 12px 20px;
+}
+
+.dropdown-content a:hover{
+  background-color : #ececec
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:link {
+  color: rgba(51, 51, 51, 1);
+  text-decoration: none;
+}
+/* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+a:visited {
+  color: rgba(51, 51, 51, 1);
+  text-decoration: none;
+}
+/* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
+a:hover {
+  color: red;
+}
