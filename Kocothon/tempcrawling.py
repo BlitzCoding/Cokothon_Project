@@ -6,13 +6,27 @@ import requests
 from tqdm.auto import tqdm
 import time
 from datetime import date
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 today = date.today()
 
 warnings.filterwarnings('ignore')
 
+# google sheet 연동
+scope = [
+    'https://spreadsheets.google.com/feeds',
+    'https://www.googleapis.com/auth/drive',
+]
+json_file_name = 'crawling_csv\lithe-elixir-373008-e1b38f977717.json'
+credentials = ServiceAccountCredentials.from_json_keyfile_name(
+    json_file_name, scope)
+gc = gspread.authorize(credentials)
+spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1OCjhJQDGeLrI_dvpeKd6xI14zAPmIMX9dg4o7jPVA28/edit#gid=0'
+doc = gc.open_by_url(spreadsheet_url)
+worksheet = doc.worksheet('시트1')
+
+
 # 메인 페이지
-
-
 def page_crawler():
     link_url = r'https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/'
 
@@ -61,7 +75,8 @@ def target_page_crawler():
 url_temp = r'https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do?hashCode=09&rowsSel=6&rows=15&cpage'
 # 실행 횟수 지정
 
-iteration_num = int(input("몇 페이지까지 검토하실건가요?(int): "))
+# 마지막 페이지까지 반복하도록
+iteration_num = 6
 
 # 지원분야
 cat_lst = []
@@ -108,6 +123,24 @@ df = pd.DataFrame({'category': cat_lst,
                    'link': link_lst,
                    'update': update_lst})
 df.index = df.index+1
+
+# spreadsheet에 df파일 쓰기
+
+
+def set_with_dataframe(worksheet, df, include_index=True):
+    (start_row, start_col) = (2, 1)  # A1부터 시작
+    end_row = start_row + len(df.index) - 1  # 행의 개수
+    end_col = start_col + len(df.columns) - 1  # 열의 개수
+    cell_list = worksheet.range(
+        start_row, start_col, end_row, end_col)  # 범위 지정
+    for cell in cell_list:  # 셀의 위치에 맞게 데이터 입력
+        val = df.iloc[cell.row - start_row,
+                      cell.col - start_col]  # 행과 열의 위치에 맞는 데이터 입력
+        cell.value = val  # 셀에 값 입력
+    worksheet.update_cells(cell_list)  # 범위에 있는 셀 업데이트
+
+
+set_with_dataframe(worksheet, df)  # df를 spreadsheet에 쓰기
 
 df.to_csv('검색결과.csv', encoding='utf-8-sig')
 
