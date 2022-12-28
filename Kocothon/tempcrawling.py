@@ -70,6 +70,8 @@ def target_page_crawler():
         benefit_temp = soup.find('div', {'class': 'view_cont'}).find_all('li')[
             3].find('div').text.split('☞')[2].strip()
         benefit_lst.append(benefit_temp)
+        
+
 
 
 url_temp = r'https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/list.do?hashCode=09&rowsSel=6&rows=15&cpage'
