@@ -1,0 +1,45 @@
+{{>layout/header}}
+<br/>
+<div id="posts_list">
+    <br class="col-md-12">
+    <form class="card">
+        <div class="card-header d-flex justify-content-between">
+            <label for="id">번호 : {{post.id}}</label>
+            <input type="hidden" id="id" value="{{post.id}}">
+        </div>
+        <div class="card-header d-flex justify-content-between">
+            <label for="writer">작성자 : {{post.author}}</label>
+        </div>
+        <div class="card-body">
+            <label for="title">제목</label>
+            <input type="text" class="form-control" id="title" value="{{post.title}}" readonly>
+            <br/>
+            </br>
+            {{#post.filePath}}
+                <div class="col-md-6">
+                    <img src="{{post.filePath}}" alt="imageFile" class="img-fluid">
+                </div>
+            {{/post.filePath}}
+            </br>
+            <label for="content">내용</label>
+            <textarea rows="5" class="form-control" id="content" readonly>{{post.content}}</textarea>
+        </div>
+    </form>
+    </br>
+    {{! Buttons }}
+    {{#user}}
+        <a href="/" role="button" class="btn btn-info bi bi-arrow-return-left">목록</a>
+        {{#writer}}
+            <a href="/posts/update/{{id}}" role="button" class="btn btn-primary bi bi-pencil-square">수정</a>
+            <a href="/posts/delete/{{id}}" role="button" class="btn btn-danger bi bi-trash">삭제</a>
+        {{/writer}}
+    {{/user}}
+    {{^user}}
+        <a href="/" role="button" class="btn btn-info bi bi-arrow-return-left"> 목록</a>
+    {{/user}}
+
+    {{! Comments }}
+    {{>comments/list}}
+    {{>comments/form}}
+</div>
+{{>layout/footer}}
