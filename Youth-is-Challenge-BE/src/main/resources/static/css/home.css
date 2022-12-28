@@ -2,17 +2,20 @@ a:link{color:#333333; text-decoration: none}
 a:visited{color: #333333;text-decoration: none}
 a:hover{color : red;text-decoration: none}
 html {
-	font-size:62.5%;
+   font-size:62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+   margin: 0;
+   padding: 0;
 }
 ul, li {
-	list-style: none;
+   list-style: none;
 }
 input {
-	border: none;
+   border: none;
+}
+chung{
+  text-align: center;
 }
 body {
   width: 156rem;
@@ -175,6 +178,5 @@ body {
   position: relative;
   background-size: 117.935% 100%;
   background-position: -0.075rem -0rem;
-  background-image: url('./image/image-3.png');
   flex-shrink: 0;
 }
