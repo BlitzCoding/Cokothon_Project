@@ -5,12 +5,12 @@ import com.jojoldu.book.freelecspringboot2webservice.domain.comments.Comments;
 import java.time.LocalDateTime;
 
 public class CommentsResponseDto {
-    private Long id;
-    private String comment;
-    private String name;
-    private Long postId;
-    private Long userId;
-    private LocalDateTime modifiedDate;
+    private final Long id;
+    private final String comment;
+    private final String name;
+    private final Long postId;
+    private final Long userId;
+    private final LocalDateTime modifiedDate;
 
     public CommentsResponseDto(Comments comments) {
         this.id = comments.getId();

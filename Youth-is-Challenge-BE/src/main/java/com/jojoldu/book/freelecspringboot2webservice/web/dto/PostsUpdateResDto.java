@@ -7,10 +7,10 @@ package com.jojoldu.book.freelecspringboot2webservice.web.dto;
 public class PostsUpdateResDto {
     //게시글 수정페이지에 랜더링할 data 담을 dto
 
-    private Long id;
-    private String title;
-    private String content;
-    private String fileName;
+    private final Long id;
+    private final String title;
+    private final String content;
+    private final String fileName;
 
 
     public PostsUpdateResDto(Posts entity) {
