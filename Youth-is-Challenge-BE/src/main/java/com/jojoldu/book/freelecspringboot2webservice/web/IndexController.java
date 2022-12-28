@@ -17,7 +17,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @Controller
 public class IndexController {
-
     private final PostsService postsService;
 
     @GetMapping("/")
@@ -30,8 +29,27 @@ public class IndexController {
         return "loginPage";
     }
 
+    @GetMapping("/mentoring")
+    public String mentoring() {
+        return "mentoring";
+    }
+    @GetMapping("/mentoring2")
+    public String mentoring2() {
+        return "mentoring2";
+    }
+    @GetMapping("/mentoring3")
+    public String mentoring3() {
+        return "mentoring3";
+    }
     @GetMapping("/community")
-    public String communityPage() {
+    public String communityPage(Model model, @LoginUser SessionUser user) {
+        model.addAttribute("posts", postsService.findAllDesc());
+        //findAllDesc()로 가져온 결과를 posts 객체로 -> index에 전달
+
+        if (user != null) { //세션에 저장된 값이 있을 경우에만 model에 userName 등록
+            model.addAttribute("loginUserName", user.getName());
+        }
+
         return "community";
     }
 
@@ -40,16 +58,9 @@ public class IndexController {
         return "information";
     }
 
-    @GetMapping("/posts/")
-    public String postList(Model model, @LoginUser SessionUser user){
-        model.addAttribute("posts", postsService.findAllDesc());
-        //findAllDesc()로 가져온 결과를 posts 객체로 -> index에 전달
-
-        if (user != null) { //세션에 저장된 값이 있을 경우에만 model에 userName 등록
-            model.addAttribute("loginUserName", user.getName());
-        }
-
-        return "posts-list";
+    @GetMapping("/myPage")
+    public String mypage() {
+        return "myPage";
     }
 
     @GetMapping("/posts/save")
@@ -84,4 +95,5 @@ public class IndexController {
         model.addAttribute("post", postsResponseDto);
         return "posts-read";
     }
+
 }

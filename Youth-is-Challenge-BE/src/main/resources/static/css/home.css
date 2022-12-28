@@ -1,4 +1,6 @@
-
+a:link{color:#333333; text-decoration: none}
+a:visited{color: #333333;text-decoration: none}
+a:hover{color : red;text-decoration: none}
 html {
 	font-size:62.5%;
 }
@@ -173,6 +175,6 @@ body {
   position: relative;
   background-size: 117.935% 100%;
   background-position: -0.075rem -0rem;
-  background-image: url('../assets/image-3.png');
+  background-image: url('./image/image-3.png');
   flex-shrink: 0;
 }

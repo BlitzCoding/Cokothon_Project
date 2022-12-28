@@ -1,16 +1,18 @@
-
+a:link{color:#333333; text-decoration: none}
+a:visited{color: #333333;text-decoration: none}
+a:hover{color : red;text-decoration: none}
 html {
-	font-size:62.5%;
+   font-size:62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+   margin: 0;
+   padding: 0;
 }
 ul, li {
-	list-style: none;
+   list-style: none;
 }
 input {
-	border: none;
+   border: none;
 }
 body {
   width: 156rem;
@@ -142,7 +144,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../assets/ellipse-1-bg.png');
+  background-image: url('../image/ellipse-1-bg.png');
   border-radius: 13.5rem;
   flex-shrink: 0;
 }
@@ -320,7 +322,7 @@ body {
   background-color: #000000;
 }
 .mentoring2-vG3 .auto-group-nd7z-AyZ .item--vFu {
-  width: 28.8rem;
+  width: 48.8rem;
   height: 12.2rem;
   position: absolute;
   left: 8.9rem;
