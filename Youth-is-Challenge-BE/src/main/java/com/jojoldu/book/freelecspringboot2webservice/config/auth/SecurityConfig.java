@@ -2,7 +2,9 @@ package com.jojoldu.book.freelecspringboot2webservice.config.auth;
 
 import com.jojoldu.book.freelecspringboot2webservice.domain.user.Role;
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
@@ -12,6 +14,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private final CustomOAuth2UserService customOAuth2UserService;
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.httpBasic().disable();
+        http
+                .authorizeRequests()
+                .mvcMatchers("/", "/css/**", "/scripts/**","/plugin/**", "/fonts/")
+                .permitAll();
+    }
+
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        web
+                .ignoring()
+                .requestMatchers(PathRequest.toStaticResources().atCommonLocations());
     }
 }
