@@ -1,0 +1,67 @@
+{{>layout/header}}
+
+<h1>게시글 수정</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="title">글 번호</label>
+                <input type="text" class="form-control" id="id" value="{{post.id}}" readonly>
+                <!--post.id => post객체의 필드 id에 접근 하기 위해 dot 이용
+                    readonly => input 태그에 읽기 가능만 허용 -->
+            </div>
+            <div class="form-group">
+                <label for="title">제목</label>
+                <input type="text" class="form-control" id="title" value="{{post.title}}">
+            </div>
+            <div class="filebox">
+                <input class="upload-name" value="{{#post.fileName}}{{post.fileName}}{{/post.fileName}}
+                    {{^post.fileName}}no image{{/post.fileName}}" disabled="disabled" id="default-name">
+                <label for="filename">업로드</label>
+                <input type="file" id="filename" class="upload-hidden" name="img">
+                <input type="hidden" value = 'false' id="flag">
+                <button type="button" class="btn btn-danger" id="image_delete">파일삭제</button>
+            </div>
+            <script>
+                $(function (){
+                    $("#image_delete").on("click", function (e){
+                        e.preventDefault();
+                        $('#flag').attr('value', 'true');
+                        document.getElementById('filename').value = '';
+                        $(this).siblings('.upload-name').val(''); //기존 파일 명 삭제
+
+                    })
+                });
+
+                $(function (){
+                    var fileTarget = $('.filebox .upload-hidden');
+                    fileTarget.on('change', function changeName(){  // 값이 변경되면
+                        if(window.FileReader){  // modern browser
+                            var filename = $(this)[0].files[0].name;
+                        }
+                        else {  // old IE
+                            var filename = $(this).val().split('/').pop().split('\\').pop();  // 파일명만 추출
+                        }
+                        // 추출한 파일명 삽입
+                        $(this).siblings('.upload-name').val(filename);
+                    })});
+
+
+
+
+
+            </script>
+            <div class="form-group">
+                <label for="content"> 내용 </label>
+                <textarea class="form-control" id="content">{{post.content}}</textarea>
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-update">수정 완료</button>
+        <button type="button" class="btn btn-danger" id="btn-delete">삭제</button>
+
+    </div>
+</div>
+
+{{>layout/footer}}
