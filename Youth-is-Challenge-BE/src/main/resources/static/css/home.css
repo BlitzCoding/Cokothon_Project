@@ -14,20 +14,24 @@ input {
 }
 body {
   width: 156rem;
-}.home-9WK {
+}.home-x6w {
   box-sizing: border-box;
-  padding: 4.2rem 4.3rem 4.2rem 4.3rem;
+  padding: 4.2rem 4.3rem 27.1rem 4.3rem;
   width: 100%;
-  height: 156.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
 }
-.home-9WK .menu-Tmu {
+.home-x6w .menu-dym {
+  margin-bottom: 8.6rem;
   width: 100%;
   height: 7.4rem;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .hhru-logo-CzP {
+.home-x6w .menu-dym .hhru-logo-yXq {
   margin: 0rem 3.618rem 0.5rem 0rem;
   width: 6.9rem;
   height: 6.9rem;
@@ -35,7 +39,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .new-york-LKu {
+.home-x6w .menu-dym .new-york-gh9 {
   margin: 2.467rem 4.713rem 2.159rem 0rem;
   height: calc(100% - 4.6261rem);
   font-size: 1.8rem;
@@ -48,7 +52,7 @@ body {
   box-sizing: border-box;
   flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .informations-pF5 {
+.home-x6w .menu-dym .informations-5DV {
   margin: 0rem 4.101rem 0.267rem 0rem;
   font-size: 1.8rem;
   font-weight: 600;
@@ -58,7 +62,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .community-LjD {
+.home-x6w .menu-dym .community-avw {
   margin: 0rem 62.103rem 0.267rem 0rem;
   font-size: 1.8rem;
   font-weight: 600;
@@ -68,7 +72,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .resume-button-Epb {
+.home-x6w .menu-dym .resume-button-i1Z {
   margin: 1.501rem 1.56rem 1.501rem 0rem;
   width: 19.2005rem;
   height: calc(100% - 3.0029rem);
@@ -76,7 +80,7 @@ body {
   border-radius: 3rem;
   flex-shrink: 0;
 }
-.home-9WK .menu-Tmu .resume-button-Epb .mypage-89H {
+.home-x6w .menu-dym .resume-button-i1Z .mypage-3Jj {
   width: 6.3rem;
   height: 1.9rem;
   position: absolute;
@@ -90,7 +94,7 @@ body {
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
 }
-.home-9WK .menu-Tmu .resume-button-Epb .rectangle-4-1Ty {
+.home-x6w .menu-dym .resume-button-i1Z .rectangle-4-YmH {
   width: 19.2005rem;
   height: 4.3971rem;
   position: absolute;
@@ -100,7 +104,7 @@ body {
   box-sizing: border-box;
   border-radius: 3rem;
 }
-.home-9WK .menu-Tmu .sing-in-button-8Hh {
+.home-x6w .menu-dym .sing-in-button-Eu1 {
   margin: 1.501rem 0rem 1.501rem 0rem;
   width: 12.4048rem;
   height: calc(100% - 3.0029rem);
@@ -115,5 +119,60 @@ body {
   justify-content: center;
   background-color: #d6001c;
   border-radius: 3rem;
+  flex-shrink: 0;
+}
+.home-x6w .group-23-UYT {
+  margin: 0rem 11.4rem 0rem 9.4rem;
+  width: calc(100% - 20.8rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.home-x6w .group-23-UYT .auto-group-cfek-a5h {
+  margin: 0rem 15.7rem 10.5rem 0rem;
+  width: 43.5rem;
+  height: 29.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-x6w .group-23-UYT .auto-group-cfek-a5h .image-2-gPd {
+  width: 21.45rem;
+  height: 21.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.home-x6w .group-23-UYT .auto-group-cfek-a5h .item--QaX {
+  width: 23.1rem;
+  height: 15.6rem;
+  position: absolute;
+  left: 20.4rem;
+  top: 14.1rem;
+  font-size: 12.8rem;
+  font-weight: 900;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-x6w .group-23-UYT .item--6TM {
+  margin: 0rem 18.2rem 1rem 0rem;
+  font-size: 12.8rem;
+  font-weight: 900;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-x6w .group-23-UYT .image-3-1aK {
+  width: 18.4rem;
+  height: 21.7rem;
+  position: relative;
+  background-size: 117.935% 100%;
+  background-position: -0.075rem -0rem;
+  background-image: url('../assets/image-3.png');
   flex-shrink: 0;
 }

@@ -30,6 +30,16 @@ public class IndexController {
         return "loginPage";
     }
 
+    @GetMapping("/community")
+    public String communityPage() {
+        return "community";
+    }
+
+    @GetMapping("/information")
+    public String informationPage() {
+        return "information";
+    }
+
     @GetMapping("/posts/")
     public String postList(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
