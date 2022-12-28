@@ -4,6 +4,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.util.Objects;
+
 @Getter
 @NoArgsConstructor
 public class PostsUpdateRequestDto {
@@ -15,11 +17,7 @@ public class PostsUpdateRequestDto {
     public PostsUpdateRequestDto(String title, String content, String deleteFlag) {
         this.title = title;
         this.content = content;
-        if(deleteFlag == "true"){
-            this.deleteFlag = true;
-        }else {
-            this.deleteFlag = false;
-        }
+        this.deleteFlag = Objects.equals(deleteFlag, "true");
 
     }
 }
