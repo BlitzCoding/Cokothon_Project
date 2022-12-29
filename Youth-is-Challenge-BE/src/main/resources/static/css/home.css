@@ -2,17 +2,20 @@ a:link{color:#333333; text-decoration: none}
 a:visited{color: #333333;text-decoration: none}
 a:hover{color : red;text-decoration: none}
 html {
-	font-size:62.5%;
+   font-size:62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+   margin: 0;
+   padding: 0;
 }
 ul, li {
-	list-style: none;
+   list-style: none;
 }
 input {
-	border: none;
+   border: none;
+}
+chung{
+  text-align: center;
 }
 chung{
   text-align: center;
