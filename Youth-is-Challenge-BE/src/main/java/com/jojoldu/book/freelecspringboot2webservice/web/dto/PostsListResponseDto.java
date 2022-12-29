@@ -9,11 +9,11 @@ import java.util.stream.Collectors;
 
 @Getter
 public class PostsListResponseDto {
-    private final Long id;
-    private final String title;
-    private final String author;
-    private final LocalDateTime modifiedDate;
-    private final List<CommentsResponseDto> comments;
+    private Long id;
+    private String title;
+    private String author;
+    private LocalDateTime modifiedDate;
+    private List<CommentsResponseDto> comments;
 
     public PostsListResponseDto(Posts entity) {
         this.id = entity.getId();

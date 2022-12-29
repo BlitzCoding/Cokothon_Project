@@ -13,14 +13,18 @@
 <body>
 <div class="mentoring2-vG3">
   <div class="menu-uNs">
-    <img class="hhru-logo-ZkF" src="/image/hhru-logo-3ZV.png"/>
+    <a href="http://localhost:8080"><img class="hhru-logo-ZkF" src="/image/hhru-logo-3ZV.png"/></a>
     <div class="new-york-3fR"><a href="http://localhost:8080/mentoring">Mentoring</a></div>
     <p class="informations-fB1"><a href="http://localhost:8080/information">Informations</a></p>
     <p class="community-w8X"><a href="http://localhost:8080/community">Community</a></p>
     <div class="resume-button-FQ7">
-      <div class="mypage-hmu"><a href="http://localhost:8080/myPage">MyPage</a></div>
+      <a href="http://localhost:8080/myPage">
+      <div class="mypage-hmu">MyPage</div>
+
       <div class="rectangle-4-AQb">
+
       </div>
+      </a>
     </div>
     <div class="sing-in-button-cXV"><a href="http://localhost:8080/loginPage">Sign In</a></div>
   </div>
@@ -37,8 +41,9 @@
         </div>
       </div>
       <div class="auto-group-p4rf-shd">
-        <div class="sing-in-button-Pfy"><a href="http://localhost:8080/mentoring3">신청하기</a></div>
-        <div class="sing-in-button-sb9">방문하기</div>
+        <div class="sing-in-button-Pfy"><button type="button" id="apply">신청하기</button></div>
+
+          <div class="sing-in-button-sb9">방문하기</div>
       </div>
     </div>
   </div>
@@ -159,5 +164,57 @@
       </div>
     </div>
   </div>
+
+  <div class="black_bg"></div>
+  <div class="modal_wrap">
+    <div class="group-20-gLb">
+      <div class="form-floating mb-3">
+        <label for="firstName">이름 (First Name) :</label>
+        <input type="text" class="form-control rounded-3" id="firstName" placeholder="Enter your First Name..">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="lastName">성 (Last Name) :</label>
+        <input type="text" class="form-control rounded-3" id="lastName" placeholder="Enter your Last Name..">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="eMail">이메일 (Email):</label>
+        <input type="email" class="form-control rounded-3" id="eMail" placeholder="info@xyz.com">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="mobileNum">전화번호 (Mobile Num)  :</label>
+        <input type="text" class="form-control rounded-3" id="mobileNum" placeholder="010-1234-5678">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="password">비밀번호 (Password)  :</label>
+        <input type="password" class="form-control rounded-3" id="password" placeholder="xxxxxxxxxx">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="confirmPassword">비밀번호 재확인 (Confirm Password)  :</label>
+        <input type="password" class="form-control rounded-3" id="confirmPassword" placeholder="xxxxxxxxxx">
+      </div>
+      <div class="form-floating mb-3">
+        <label for="preferredTime">선호 시간대 (Preferred Time) :</label>
+        <input type="time" class="form-control rounded-3" id="preferredTime" placeholder="xxxx년 xx월 xx일">
+      </div>
+      <div class="modal_close"><a href="#">close</a></div>
+    </div>
+  </div>
 </div>
+<script>
+  window.onload = function() {
+
+    function onClick() {
+      document.querySelector('.modal_wrap').style.display ='block';
+      document.querySelector('.black_bg').style.display ='block';
+    }
+    function offClick() {
+      document.querySelector('.modal_wrap').style.display ='none';
+      document.querySelector('.black_bg').style.display ='none';
+    }
+
+    document.getElementById('apply').addEventListener('click', onClick);
+    document.querySelector('.modal_close').addEventListener('click', offClick);
+
+  };
+</script>
 </body>

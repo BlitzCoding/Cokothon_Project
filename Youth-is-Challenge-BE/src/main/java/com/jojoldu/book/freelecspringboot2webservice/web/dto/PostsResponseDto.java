@@ -9,13 +9,13 @@ import java.util.stream.Collectors;
 @Getter
 public class PostsResponseDto {
     //특정 id 게시글 조회할 때 게시글 정보 담을 dto
-    private final Long id;
-    private final String title;
-    private final String content;
-    private final String author;
-    private final String filePath; //img 태그 src에 매핑시켜 로컬 파일 사용
-    private final Long userId;
-    private final List<CommentsResponseDto> comments;
+    private Long id;
+    private String title;
+    private String content;
+    private String author;
+    private String filePath; //img 태그 src에 매핑시켜 로컬 파일 사용
+    private Long userId;
+    private List<CommentsResponseDto> comments;
 
     public PostsResponseDto(Posts entity) {
         this.id = entity.getId();

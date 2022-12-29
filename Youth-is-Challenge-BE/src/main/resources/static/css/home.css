@@ -14,6 +14,9 @@ ul, li {
 input {
 	border: none;
 }
+chung{
+  text-align: center;
+}
 body {
   width: 156rem;
 }.home-x6w {
@@ -175,6 +178,5 @@ body {
   position: relative;
   background-size: 117.935% 100%;
   background-position: -0.075rem -0rem;
-  background-image: url('./image/image-3.png');
   flex-shrink: 0;
 }
