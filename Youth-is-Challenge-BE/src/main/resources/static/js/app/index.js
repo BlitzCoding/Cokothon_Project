@@ -1,25 +1,25 @@
 var main = { //main이란 객체 생성해서 function 유효 범위 선언
-        init : function () {
-            var _this = this;
-            $('#btn-save').on('click', function () {
-                _this.save();
-            });
+    init : function () {
+        var _this = this;
+        $('#btn-save').on('click', function () {
+            _this.save();
+        });
 
-            $('#btn-update').on('click', function () {
-                _this.update();
+        $('#btn-update').on('click', function () {
+            _this.update();
+        });
+        $('#btn-delete').on('click', function () {
+            _this.delete();
+        });
+        $('#btn-comment-save').on('click', function () {
+            _this.commentSave();
+        });
+        document.querySelectorAll('#btn-comment-update').forEach(function (item) {
+            item.addEventListener('click', function () { // 버튼 클릭 이벤트 발생시
+                const form = this.closest('form'); // btn의 가장 가까운 조상의 Element(form)를 반환 (closest)
+                _this.commentUpdate(form); // 해당 form으로 업데이트 수행
             });
-            $('#btn-delete').on('click', function () {
-                _this.delete();
-            });
-            $('#btn-comment-save').on('click', function () {
-                _this.commentSave();
-            });
-            document.querySelectorAll('#btn-comment-update').forEach(function (item) {
-                item.addEventListener('click', function () { // 버튼 클릭 이벤트 발생시
-                    const form = this.closest('form'); // btn의 가장 가까운 조상의 Element(form)를 반환 (closest)
-                    _this.commentUpdate(form); // 해당 form으로 업데이트 수행
-                });
-            });
+        });
     },
     save: function () {
         let data = {
@@ -41,7 +41,7 @@ var main = { //main이란 객체 생성해서 function 유효 범위 선언
             processData:false,
         }).done(function () {
             alert('글이 등록되었습니다.');
-            window.location.href = '/'; //글 등록이 성공하면 메인페이지("/")로 이동
+            window.location.href = '/community'; //글 등록이 성공하면 메인페이지("/")로 이동
         }).fail(function (error) {
             alert('error');
         });

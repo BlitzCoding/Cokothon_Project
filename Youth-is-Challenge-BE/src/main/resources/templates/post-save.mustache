@@ -1,49 +1,43 @@
-{{>layout/header}}
-
-<h1>게시글 등록</h1>
-
-<div class="col-md-12">
-    <div class="col-md-4">
-        <form enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="title">제목</label>
-                <input type="text" class="form-control" id="title" placeholder="제목을 입력하세요">
-            </div>
-
-            <div class="filebox">
-                <input class="upload-name" disabled="disabled">
-                <label for="filename">업로드</label>
-                <input type="file" id="filename" class="upload-hidden" name="img">
-            </div>
-
-
-            <script>
-                $(function(){
-                    var fileTarget = $('.filebox .upload-hidden');
-
-                    fileTarget.on('change', function(){  // 값이 변경되면
-                        if(window.FileReader){  // modern browser
-                            var filename = $(this)[0].files[0].name;
-                        }
-                        else {  // old IE
-                            var filename = $(this).val().split('/').pop().split('\\').pop();  // 파일명만 추출
-                        }
-
-                        // 추출한 파일명 삽입
-                        $(this).siblings('.upload-name').val(filename);
-                    });
-                });
-
-            </script>
-
-            <div class="form-group">
-                <label for="content"> 내용 </label>
-                <textarea class="form-control" id="content" placeholder="내용을 입력하세요"></textarea>
-            </div>
-        </form>
-        <a href="/" role="button" class="btn btn-secondary">취소</a>
-        <button type="button" class="btn btn-primary" id="btn-save">등록</button>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>write</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C600%2C900"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C900"/>
+    <link rel="stylesheet" href="/css/write.css"/>
+</head>
+<body>
+<div class="write-EcT">
+    <div class="menu-Mh5">
+        <img class="hhru-logo-tS7" src="/image/logo.png"/>
+        <div class="new-york-DUP"><a href="http://localhost:8080/mentoring">Mentoring</a></div>
+        <p class="informations-Uv7"><a href="http://localhost:8080/information">Informations</a></p>
+        <p class="community-zdZ"><a href="http://localhost:8080/community">Community</a></p>
+        <div class="resume-button-vGK">
+            <a href="http://localhost:8080/myPage">
+                <div class="mypage-T1M">MyPage</div>
+                <div class="rectangle-4-AAf">
+                </div>
+            </a>
+        </div>
+        <div class="sing-in-button-t6f"><a href="http://localhost:8080/loginPage">Sign In</a></div>
     </div>
+    <div class="titulo-input-LjM">
+        <lable for="title">
+            <p class="label-Uaf">제목</p>
+            <input type="text" class="titulo-QjD" id="title" placeholder="제목을 입력하세요">
+        </lable>
+    </div>
+    <div class="sinopase-input-1U7">
+        <label for="content"><p class="label-jf1">내용</p></label>
+        <textarea class="auto-group-bwyz-Gew"id="content" placeholder="내용을 입력하세요"></textarea>
+    </div>
+    <button type="button" class="sing-in-button-uC7" id="btn-save">작성하기</button>
 </div>
+</body>
 
 {{>layout/footer}}
